@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+#pinta-superior {
+  font-size: 450%;
+}
+
+#valor {
+  font-size: 500%;
+}
+
+#pinta-inferior {
+  font-size: 450%;
+  transform: rotate(180deg);
+}
